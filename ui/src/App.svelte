@@ -76,8 +76,8 @@
     {#if $admin?.id && showAppSidebar}
         <aside class="app-sidebar">
             <a href="/" class="logo logo-sm" use:link>
-                <img
-                    src="{import.meta.env.BASE_URL}images/logo.svg"
+                <img class="slidebar-logo"
+                    src="{import.meta.env.BASE_URL}images/TechnodevsRedeslogo.png"
                     alt="PocketBase logo"
                     width="40"
                     height="40"
